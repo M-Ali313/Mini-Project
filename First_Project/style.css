@@ -1,0 +1,84 @@
+/* Reset some default browser styles */  
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+}  
+
+/* Body styles */  
+body {  
+    font-family: 'Arial', sans-serif;  
+    background-color: #f1f5f8; /* Light background to match the main color */  
+    color: #333; /* Text color */  
+}  
+
+/* Navigation styles */  
+nav {  
+    background-color: #4CAF50; /* Navigation bar background color */  
+    padding: 1rem; /* Padding for navigation */  
+}  
+
+.nav-center {  
+    display: flex; /* Flexbox for navigation layout */  
+    justify-content: space-between; /* Space between items */  
+    align-items: center; /* Center items vertically */  
+}  
+
+.nav-links {  
+    list-style: none; /* Remove bullets from list */  
+    display: flex; /* Use flexbox for links */  
+}  
+
+.nav-links li {  
+    margin-left: 2rem; /* Space between links */  
+}  
+
+.nav-links a {  
+    text-decoration: none; /* Remove underline from links */  
+    color: white; /* Link color */  
+    font-weight: bold; /* Bold text */  
+}  
+
+.nav-links a:hover {  
+    text-decoration: underline; /* Underline links on hover */  
+}  
+
+/* Main styles */  
+main {  
+    display: flex; /* Flexbox for main content */  
+    justify-content: center; /* Center content horizontally */  
+    align-items: center; /* Center content vertically */  
+    height: 80vh; /* Height of main area */  
+}  
+
+.container {  
+    text-align: center; /* Center text in container */  
+}  
+
+h2 {  
+    margin-bottom: 1rem; /* Space below the heading */  
+}  
+
+.color {  
+    font-weight: bold; /* Bold color code */  
+    color: #4CAF50; /* Color matching navigation */  
+}  
+
+/* Button styles */  
+.btn {  
+    padding: 10px 20px; /* Button padding */  
+    font-size: 16px; /* Font size */  
+    border: none; /* No border */  
+    border-radius: 5px; /* Rounded corners */  
+    cursor: pointer; /* Pointer cursor on hover */  
+    transition: background-color 0.3s ease; /* Smooth transition */  
+}  
+
+.btn-hero {  
+    background-color: #2196F3; /* Button background color */  
+    color: white; /* Button text color */  
+}  
+
+.btn-hero:hover {  
+    background-color: #1976D2; /* Darker on hover */  
+}
